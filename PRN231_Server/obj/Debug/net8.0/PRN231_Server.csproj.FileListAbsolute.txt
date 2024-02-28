@@ -30,3 +30,4 @@ C:\Users\StarCii\source\repos\PRN231_Server\PRN231_Server\obj\Debug\net8.0\refin
 C:\Users\StarCii\source\repos\PRN231_Server\PRN231_Server\obj\Debug\net8.0\PRN231_Server.pdb
 C:\Users\StarCii\source\repos\PRN231_Server\PRN231_Server\obj\Debug\net8.0\PRN231_Server.genruntimeconfig.cache
 C:\Users\StarCii\source\repos\PRN231_Server\PRN231_Server\obj\Debug\net8.0\ref\PRN231_Server.dll
+C:\Users\StarCii\source\repos\PRN231_Server\PRN231_Server\obj\Debug\net8.0\PRN231_Server.sourcelink.json
