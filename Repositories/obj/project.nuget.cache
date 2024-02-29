@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0vgS9DqvuhT1mYTb0NPVNhMDfVlAKyVvihOfYBC/dt5aLUyJgYjEbD0o520AKV1Zs9zLJO3C12cCs6/UiFKBsg==",
+  "dgSpecHash": "CY0qqep1KxY4pm6+b2eInMQGFphEOUk9ydnYMKBZbZAZAc4oCJ/M4LWqGGUzeAj9N5PDw9LbYuWJyvUO6lFrxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\StarCii\\source\\repos\\PRN231_Server\\Repositories\\Repositories.csproj",
+  "projectFilePath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\StarCii\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
-    "C:\\Users\\StarCii\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\StarCii\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

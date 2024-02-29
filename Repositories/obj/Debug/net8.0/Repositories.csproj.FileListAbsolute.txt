@@ -10,3 +10,16 @@ C:\Users\StarCii\source\repos\PRN231_Server\Repositories\obj\Debug\net8.0\Reposi
 C:\Users\StarCii\source\repos\PRN231_Server\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 C:\Users\StarCii\source\repos\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.pdb
 C:\Users\StarCii\source\repos\PRN231_Server\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\ref\Repositories.dll

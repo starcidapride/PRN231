@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\StarCii\\source\\repos\\PRN231_Server\\PRN231_Server\\PRN231_Server.csproj": {}
+    "D:\\KY9_Spring\\PRN231\\PRN231_Server\\PRN231_Server\\PRN231_Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\StarCii\\source\\repos\\PRN231_Server\\PRN231_Server\\PRN231_Server.csproj": {
+    "D:\\KY9_Spring\\PRN231\\PRN231_Server\\PRN231_Server\\PRN231_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StarCii\\source\\repos\\PRN231_Server\\PRN231_Server\\PRN231_Server.csproj",
+        "projectUniqueName": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\PRN231_Server\\PRN231_Server.csproj",
         "projectName": "PRN231_Server",
-        "projectPath": "C:\\Users\\StarCii\\source\\repos\\PRN231_Server\\PRN231_Server\\PRN231_Server.csproj",
-        "packagesPath": "C:\\Users\\StarCii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StarCii\\source\\repos\\PRN231_Server\\PRN231_Server\\obj\\",
+        "projectPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\PRN231_Server\\PRN231_Server.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\PRN231_Server\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\StarCii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
