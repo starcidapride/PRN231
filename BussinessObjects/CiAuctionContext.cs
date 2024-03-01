@@ -12,7 +12,7 @@ namespace BussinessObjects
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-              optionsBuilder.UseMySql("Server=localhost;Port=3307;Database=ciauction;Uid=root;Pwd=12345;", ServerVersion.AutoDetect("Server=localhost;Port=3307;Database=ciauction;Uid=root;Pwd=12345;"));
+              optionsBuilder.UseMySql(GetConnectionString(), ServerVersion.AutoDetect(GetConnectionString()));
         }
 
         private string GetConnectionString()

@@ -2,14 +2,14 @@
   {
     "ContainingType": "PRN231_Server.Controllers.UserController",
     "Method": "Login",
-    "RelativePath": "User/login",
+    "RelativePath": "User/Login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "loginDTO",
-        "Type": "PRN231_Server.Model.LoginDTO",
+        "Name": "loginDto",
+        "Type": "PRN231_Server.Model.LoginDto",
         "IsRequired": true
       }
     ],
@@ -18,7 +18,7 @@
   {
     "ContainingType": "PRN231_Server.Controllers.UserController",
     "Method": "SignUp",
-    "RelativePath": "User/signup",
+    "RelativePath": "User/SignUp",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
