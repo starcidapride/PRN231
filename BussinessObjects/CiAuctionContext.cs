@@ -12,7 +12,17 @@ namespace BussinessObjects
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-              optionsBuilder.UseSqlServer("Server=localhost,1435;Database=CiAuction;User Id=sa;Password=Cuong123_A;TrustServerCertificate=true");
+              optionsBuilder.UseMySql("Server=localhost;Port=3307;Database=ciauction;Uid=root;Pwd=12345;", ServerVersion.AutoDetect("Server=localhost;Port=3307;Database=ciauction;Uid=root;Pwd=12345;"));
+        }
+
+        private string GetConnectionString()
+        {
+            IConfiguration config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", true, true)
+                .Build();
+            var strConn = config.GetConnectionString("CiAuctionDb");
+            return strConn;
         }
 
         public DbSet<User> Users { get; set; }

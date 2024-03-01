@@ -1,0 +1,16 @@
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\bin\Debug\net8.0\BussinessObjects.dll
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\bin\Debug\net8.0\BussinessObjects.pdb
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.sourcelink.json
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+D:\KY9_Spring\PRN231\PRN231_Server\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll

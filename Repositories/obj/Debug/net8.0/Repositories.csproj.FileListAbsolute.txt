@@ -23,3 +23,8 @@ D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.dl
 D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\bin\Debug\net8.0\BussinessObjects.dll
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\bin\Debug\net8.0\DataAccessObjects.dll
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\bin\Debug\net8.0\BussinessObjects.pdb
+D:\KY9_Spring\PRN231\PRN231_Server\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
