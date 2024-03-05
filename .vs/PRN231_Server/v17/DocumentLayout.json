@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BCA029C8-9267-42B5-AEFF-A152692F2651}|DataAccessObjects\\DataAccessObjects.csproj|d:\\ky9_spring\\prn231\\prn231_server\\dataaccessobjects\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCA029C8-9267-42B5-AEFF-A152692F2651}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCA029C8-9267-42B5-AEFF-A152692F2651}|DataAccessObjects\\DataAccessObjects.csproj|d:\\ky9_spring\\prn231\\prn231_server\\dataaccessobjects\\depositrequestdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCA029C8-9267-42B5-AEFF-A152692F2651}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\depositrequestdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCA029C8-9267-42B5-AEFF-A152692F2651}|DataAccessObjects\\DataAccessObjects.csproj|d:\\ky9_spring\\prn231\\prn231_server\\dataaccessobjects\\orchiddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCA029C8-9267-42B5-AEFF-A152692F2651}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\orchiddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D31AA20-F691-4BF7-B685-91834BE76830}|BussinessObjects\\BussinessObjects.csproj|d:\\ky9_spring\\prn231\\prn231_server\\bussinessobjects\\depositrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D31AA20-F691-4BF7-B685-91834BE76830}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\depositrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D31AA20-F691-4BF7-B685-91834BE76830}|BussinessObjects\\BussinessObjects.csproj|d:\\ky9_spring\\prn231\\prn231_server\\bussinessobjects\\orchid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D31AA20-F691-4BF7-B685-91834BE76830}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\orchid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D31AA20-F691-4BF7-B685-91834BE76830}|BussinessObjects\\BussinessObjects.csproj|d:\\ky9_spring\\prn231\\prn231_server\\bussinessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D31AA20-F691-4BF7-B685-91834BE76830}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 188,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,84 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:65:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDAO.cs",
-              "DocumentMoniker": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\UserDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObjects\\UserDAO.cs",
-              "ToolTip": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\UserDAO.cs",
-              "RelativeToolTip": "DataAccessObjects\\UserDAO.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAgwHgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T08:43:48.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrchidDAO.cs",
-              "DocumentMoniker": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\OrchidDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObjects\\OrchidDAO.cs",
-              "ToolTip": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\OrchidDAO.cs",
-              "RelativeToolTip": "DataAccessObjects\\OrchidDAO.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAqwEgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T08:43:20.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepositRequestDAO.cs",
-              "DocumentMoniker": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\DepositRequestDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessObjects\\DepositRequestDAO.cs",
-              "ToolTip": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\DepositRequestDAO.cs",
-              "RelativeToolTip": "DataAccessObjects\\DepositRequestDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T08:43:34.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepositRequest.cs",
-              "DocumentMoniker": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\DepositRequest.cs",
-              "RelativeDocumentMoniker": "BussinessObjects\\DepositRequest.cs",
-              "ToolTip": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\DepositRequest.cs",
-              "RelativeToolTip": "BussinessObjects\\DepositRequest.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T08:31:22.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Orchid.cs",
-              "DocumentMoniker": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\Orchid.cs",
-              "RelativeDocumentMoniker": "BussinessObjects\\Orchid.cs",
-              "ToolTip": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\Orchid.cs",
-              "RelativeToolTip": "BussinessObjects\\Orchid.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCcAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T08:31:21.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\User.cs",
-              "RelativeDocumentMoniker": "BussinessObjects\\User.cs",
-              "ToolTip": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\User.cs",
-              "RelativeToolTip": "BussinessObjects\\User.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T08:31:21.325Z",
-              "EditorCaption": ""
             }
           ]
         },

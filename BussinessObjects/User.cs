@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace BussinessObjects
@@ -42,21 +43,24 @@ namespace BussinessObjects
         [Column("walletAddress")]
         public string WalletAddress { get; set; }
 
-        //[StringLength(50)]
-        //[DataType(DataType.Date)]
-        //[Column("createdAt")]
-        //public DateTime CreatedAt { get; set; }
+        [StringLength(50)]
+        [Column("createdAt")]
+        public DateTime CreatedAt { get; set; }
 
-        //[StringLength(50)]
-        //[DataType(DataType.Date)]
-        //[Column("updatedAt")]
-        //public DateTime UpdatedAt { get; set; }
+        [StringLength(50)]
+        [Column("updatedAt")]
+        public DateTime UpdatedAt { get; set; }
+
+        [Column("status")]
+        public Boolean Status { get; set; }
 
         [Required]
         [Column("birthdate")]
         public DateTime Birthdate { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Orchid> Orchids { get; set; }
+        [JsonIgnore]
         public virtual ICollection<DepositRequest> DepositRequests { get; set; }
     }
 }

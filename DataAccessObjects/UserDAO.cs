@@ -104,13 +104,15 @@ namespace DataAccessObjects
             }
         }
 
-        public void DeleteUser(Guid id)
+        public User RemoveUser(Guid id)
         {
             try
             {
                 var existedUser = GetUserById(id);
-                _context.Users.Remove(existedUser);
+                existedUser.Status= false;
+                _context.Entry<User>(existedUser).State = EntityState.Modified;
                 _context.SaveChanges();
+                return existedUser;
             }
             catch (Exception ex)
             {

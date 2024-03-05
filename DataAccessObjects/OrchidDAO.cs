@@ -1,4 +1,5 @@
 ﻿using BussinessObjects;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,7 +37,7 @@ namespace DataAccessObjects
         {
             try
             {
-                return _context.Orchids.ToList();
+                return _context.Orchids.Include(o => o.User).ToList();
             }
             catch (Exception ex)
             {
@@ -48,7 +49,7 @@ namespace DataAccessObjects
         {
             try
             {
-                return _context.Orchids.SingleOrDefault(o => o.OrchidId.Equals(id));
+                return _context.Orchids.Include(o=>o.User).SingleOrDefault(o => o.OrchidId.Equals(id));
             }
             catch (Exception ex)
             {
@@ -70,6 +71,35 @@ namespace DataAccessObjects
             }
         }
 
+        public void RemoveOrchid(Guid id)
+        {
+            try
+            {
+                var existedOrchid = GetOrchidById(id);
+                if (existedOrchid != null)
+                {
+                    _context.Orchids.Remove(existedOrchid);
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
 
+        public Orchid UpdateOrchid(Orchid orchid)
+        {
+            try
+            {
+                _context.Entry<Orchid>(orchid).State = EntityState.Modified;
+                _context.SaveChanges();
+                return orchid;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

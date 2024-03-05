@@ -99,6 +99,11 @@ namespace BussinessObjects.Migrations
                         .HasColumnType("datetime(6)")
                         .HasColumnName("birthdate");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasMaxLength(50)
+                        .HasColumnType("datetime(6)")
+                        .HasColumnName("createdAt");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("longtext")
@@ -121,6 +126,15 @@ namespace BussinessObjects.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)")
                         .HasColumnName("password");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("tinyint(1)")
+                        .HasColumnName("status");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasMaxLength(50)
+                        .HasColumnType("datetime(6)")
+                        .HasColumnName("updatedAt");
 
                     b.Property<string>("Username")
                         .HasMaxLength(50)

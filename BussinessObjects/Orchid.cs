@@ -36,7 +36,8 @@ namespace BussinessObjects
         public DepositedStatus DepositedStatus { get; set; }
 
         public User User { get; set; }
-      
+
+        [JsonIgnore]
         public virtual ICollection<DepositRequest> DepositRequests { get; set; }
     }
 }
