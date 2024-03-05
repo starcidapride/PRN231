@@ -17,17 +17,12 @@ namespace BussinessObjects
         [Column("userId")]
         public Guid UserId { get; set; }
         
-        [Required]
-        [EmailAddress]
         [Column("email")]
         public string Email { get; set; }
 
-        [StringLength(50)]
         [Column("username")]
         public string? Username { get; set; }
 
-        [Required]
-        [StringLength(100)]
         [Column("password")]
         public string Password { get; set;  }
 
@@ -41,15 +36,15 @@ namespace BussinessObjects
 
         [StringLength(64)]
         [Column("walletAddress")]
-        public string WalletAddress { get; set; }
+        public string? WalletAddress { get; set; }
 
         [StringLength(50)]
         [Column("createdAt")]
-        public DateTime CreatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
 
         [StringLength(50)]
         [Column("updatedAt")]
-        public DateTime UpdatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
 
         [Column("status")]
         public Boolean Status { get; set; }

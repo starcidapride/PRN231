@@ -1,5 +1,6 @@
 ﻿using BussinessObjects;
 using Service.Model.Request;
+using Service.Model.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,8 @@ namespace Service
     {
         public User Login(string email, string password);
         public RegisterDto AddUser(RegisterDto registerDto);
+        public EditUserDto EditUser(EditUserDto editUserDto);
+        public User DeleteUser(Guid id);
+        
     }
 }

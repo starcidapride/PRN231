@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Service.Impl
 {
-    public class OrchidService
+    public class OrchidService:IOrchidService
     {
     }
 }

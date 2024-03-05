@@ -5,26 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Service.Model.Request
+namespace Service.Model.Response
 {
-    public class RegisterDto
+    public class UserResponseDto
     {
-
-        [Required]
-        [EmailAddress]
         public string Email { get; set; }
-        [Required]
-        [StringLength(50)]
-        public string? Username { get; set; }
-        [Required]
-        public string Password { get; set; }
-        [StringLength(50)]
+        public string Username { get; set; }
         public string FirstName { get; set; }
-        [StringLength(50)]
         public string LastName { get; set; }
-        [Required]
         public DateTime Birthdate { get; set; }
-
-
+        public string? WalletAddress { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public Boolean Status { get; set; }
     }
 }

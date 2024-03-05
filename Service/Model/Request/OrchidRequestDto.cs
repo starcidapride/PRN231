@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Service.Impl
+namespace Service.Model.Request
 {
-    public class DepositRequestService:IDepositRequestService
+    public class OrchidRequestDto
     {
     }
 }

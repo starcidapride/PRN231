@@ -11,5 +11,9 @@ namespace Repositories
     {
         public User Login(string email, string password);
         public User AddUser(User user);
+        public User GetUserById(Guid id);
+        public IEnumerable<User> GetAll();
+        public User? UpdateUser(User user);
+        public User RemoveUser(Guid id);
     }
 }
