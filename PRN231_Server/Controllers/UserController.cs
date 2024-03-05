@@ -23,7 +23,7 @@ namespace PRN231_Server.Controllers
             {
                 if (user != null)
                 {
-                    return Ok("Login succeed fully!");
+                    return Ok(user);
                 }
                 else
                 {

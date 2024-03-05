@@ -13,6 +13,7 @@ namespace BussinessObjects
     public class User
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Column("userId")]
         public Guid UserId { get; set; }
         
         [Required]
@@ -37,8 +38,25 @@ namespace BussinessObjects
         [Column("lastName")]
         public string LastName { get; set; }
 
+        [StringLength(64)]
+        [Column("walletAddress")]
+        public string WalletAddress { get; set; }
+
+        //[StringLength(50)]
+        //[DataType(DataType.Date)]
+        //[Column("createdAt")]
+        //public DateTime CreatedAt { get; set; }
+
+        //[StringLength(50)]
+        //[DataType(DataType.Date)]
+        //[Column("updatedAt")]
+        //public DateTime UpdatedAt { get; set; }
+
         [Required]
         [Column("birthdate")]
         public DateTime Birthdate { get; set; }
+
+        public virtual ICollection<Orchid> Orchids { get; set; }
+        public virtual ICollection<DepositRequest> DepositRequests { get; set; }
     }
 }

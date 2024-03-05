@@ -22,11 +22,78 @@ namespace BussinessObjects.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
+            modelBuilder.Entity("BussinessObjects.DepositRequest", b =>
+                {
+                    b.Property<Guid>("DepositRequestId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)")
+                        .HasColumnName("depositRequestId");
+
+                    b.Property<DateTime?>("DateEnd")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("DateStart")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<Guid>("OrchidId")
+                        .HasColumnType("char(36)")
+                        .HasColumnName("orchidId");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("char(36)")
+                        .HasColumnName("ownerId");
+
+                    b.HasKey("DepositRequestId");
+
+                    b.HasIndex("OrchidId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("deposit_request");
+                });
+
+            modelBuilder.Entity("BussinessObjects.Orchid", b =>
+                {
+                    b.Property<Guid>("OrchidId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)")
+                        .HasColumnName("orchidId");
+
+                    b.Property<int>("DepositedStatus")
+                        .HasColumnType("int")
+                        .HasColumnName("depositedStatus");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("varchar(1000)")
+                        .HasColumnName("description");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("longtext")
+                        .HasColumnName("imageUrl");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)")
+                        .HasColumnName("name");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("char(36)")
+                        .HasColumnName("ownerId");
+
+                    b.HasKey("OrchidId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("orchid");
+                });
+
             modelBuilder.Entity("BussinessObjects.User", b =>
                 {
                     b.Property<Guid>("UserId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("char(36)")
+                        .HasColumnName("userId");
 
                     b.Property<DateTime>("Birthdate")
                         .HasColumnType("datetime(6)")
@@ -60,9 +127,57 @@ namespace BussinessObjects.Migrations
                         .HasColumnType("varchar(50)")
                         .HasColumnName("username");
 
+                    b.Property<string>("WalletAddress")
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)")
+                        .HasColumnName("walletAddress");
+
                     b.HasKey("UserId");
 
                     b.ToTable("user");
+                });
+
+            modelBuilder.Entity("BussinessObjects.DepositRequest", b =>
+                {
+                    b.HasOne("BussinessObjects.Orchid", "Orchid")
+                        .WithMany("DepositRequests")
+                        .HasForeignKey("OrchidId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BussinessObjects.User", "User")
+                        .WithMany("DepositRequests")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Orchid");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("BussinessObjects.Orchid", b =>
+                {
+                    b.HasOne("BussinessObjects.User", "User")
+                        .WithMany("Orchids")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("BussinessObjects.Orchid", b =>
+                {
+                    b.Navigation("DepositRequests");
+                });
+
+            modelBuilder.Entity("BussinessObjects.User", b =>
+                {
+                    b.Navigation("DepositRequests");
+
+                    b.Navigation("Orchids");
                 });
 #pragma warning restore 612, 618
         }
