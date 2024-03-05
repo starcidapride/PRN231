@@ -1,11 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace PRN231_Server.Model
+namespace Service.Model.Request
 {
     public class RegisterDto
     {
-        
         public string Email { get; set; }
         public string? Username { get; set; }
         public string Password { get; set; }

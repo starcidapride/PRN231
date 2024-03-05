@@ -1,7 +1,7 @@
 ﻿using BussinessObjects;
 using Microsoft.AspNetCore.Mvc;
-using PRN231_Server.Model;
 using Service;
+using Service.Model.Request;
 
 namespace PRN231_Server.Controllers
 {
@@ -36,11 +36,11 @@ namespace PRN231_Server.Controllers
         }
 
         [HttpPost("SignUp")]
-        public ActionResult SignUp([FromBody] User user) {
-            if (user != null)
+        public ActionResult SignUp([FromBody] RegisterDto registerDto) {
+            if (registerDto != null)
             {
-                userService.AddUser(user);
-                return new CreatedAtActionResult(nameof(SignUp), "User", new { id = user.UserId }, user);
+                userService.AddUser(registerDto);
+                return new CreatedAtActionResult(nameof(SignUp), "User", new { Email = registerDto.Email }, registerDto);
             }
             else { 
                 return BadRequest("User signs up fail!!");

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wcGkx6lRliiSw3CZAwtSYDQMHhrQi8X4RwtCoc4Igw9LIYJTZfIHOjF+k5gid6FDkY3F02P+ratj9NjOW9wFLg==",
+  "dgSpecHash": "3tDHn9m26IVWuRGRXZBsyYFK+7Q4GwRCNysdPyztIeTnFYQeIhtDlpCgZ3srTnZd5UA+HsOG6IE8s7MlXSNALA==",
   "success": true,
   "projectFilePath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Service\\Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

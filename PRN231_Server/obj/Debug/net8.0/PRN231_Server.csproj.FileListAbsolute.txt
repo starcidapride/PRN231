@@ -118,3 +118,4 @@ D:\KY9_Spring\PRN231\PRN231_Server\PRN231_Server\bin\Debug\net8.0\DataAccessObje
 D:\KY9_Spring\PRN231\PRN231_Server\PRN231_Server\bin\Debug\net8.0\Repositories.pdb
 D:\KY9_Spring\PRN231\PRN231_Server\PRN231_Server\bin\Debug\net8.0\MySqlConnector.dll
 D:\KY9_Spring\PRN231\PRN231_Server\PRN231_Server\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\KY9_Spring\PRN231\PRN231_Server\PRN231_Server\bin\Debug\net8.0\AutoMapper.dll

@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "loginDto",
-        "Type": "PRN231_Server.Model.LoginDto",
+        "Type": "Service.Model.Request.LoginDto",
         "IsRequired": true
       }
     ],
@@ -24,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "BussinessObjects.User",
+        "Name": "registerDto",
+        "Type": "Service.Model.Request.RegisterDto",
         "IsRequired": true
       }
     ],

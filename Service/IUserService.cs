@@ -1,4 +1,5 @@
 ﻿using BussinessObjects;
+using Service.Model.Request;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace Service
     public interface IUserService
     {
         public User Login(string email, string password);
-        public User AddUser(User user);
+        public RegisterDto AddUser(RegisterDto registerDto);
     }
 }
