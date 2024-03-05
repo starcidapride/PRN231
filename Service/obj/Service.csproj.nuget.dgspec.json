@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Service\\Service.csproj": {}
+    "D:\\PRN231_Server\\Service\\Service.csproj": {}
   },
   "projects": {
-    "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj": {
+    "D:\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj",
+        "projectUniqueName": "D:\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj",
         "projectName": "BussinessObjects",
-        "projectPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\obj\\",
+        "projectPath": "D:\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj",
+        "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN231_Server\\BussinessObjects\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,21 +90,17 @@
         }
       }
     },
-    "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj": {
+    "D:\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectUniqueName": "D:\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj",
         "projectName": "DataAccessObjects",
-        "projectPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\obj\\",
+        "projectPath": "D:\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj",
+        "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN231_Server\\DataAccessObjects\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,15 +108,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj": {
-                "projectPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj"
+              "D:\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj": {
+                "projectPath": "D:\\PRN231_Server\\BussinessObjects\\BussinessObjects.csproj"
               }
             }
           }
@@ -170,21 +160,17 @@
         }
       }
     },
-    "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Repositories\\Repositories.csproj": {
+    "D:\\PRN231_Server\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\PRN231_Server\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Repositories\\obj\\",
+        "projectPath": "D:\\PRN231_Server\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN231_Server\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -192,15 +178,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj": {
-                "projectPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj"
+              "D:\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj": {
+                "projectPath": "D:\\PRN231_Server\\DataAccessObjects\\DataAccessObjects.csproj"
               }
             }
           }
@@ -245,21 +230,17 @@
         }
       }
     },
-    "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Service\\Service.csproj": {
+    "D:\\PRN231_Server\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\PRN231_Server\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Service\\obj\\",
+        "projectPath": "D:\\PRN231_Server\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN231_Server\\Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,15 +248,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\KY9_Spring\\PRN231\\PRN231_Server\\Repositories\\Repositories.csproj"
+              "D:\\PRN231_Server\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\PRN231_Server\\Repositories\\Repositories.csproj"
               }
             }
           }
