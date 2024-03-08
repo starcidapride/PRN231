@@ -13,8 +13,11 @@ namespace Service
     {
         public User Login(string email, string password);
         public RegisterDto AddUser(RegisterDto registerDto);
+        public UserResponseDto GetUserById(Guid id);
+        public List<UserResponseDto> GetAllUser();
+
         public EditUserDto EditUser(EditUserDto editUserDto);
-        public User DeleteUser(Guid id);
+        public UserResponseDto DeleteUser(Guid id);
         
     }
 }

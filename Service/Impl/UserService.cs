@@ -35,9 +35,9 @@ namespace Service.Impl
             return registerDto;
         }
 
-        public User DeleteUser(Guid id)
+        public UserResponseDto DeleteUser(Guid id)
         {
-           return userRepository.RemoveUser(id);
+           return mapper.Map<UserResponseDto>(userRepository.RemoveUser(id));
         }
 
         public EditUserDto EditUser(EditUserDto editUserDto)
@@ -50,6 +50,17 @@ namespace Service.Impl
                 editUserDto= mapper.Map<EditUserDto>(updatedUser);  
             }
             return editUserDto;
+        }
+
+        public List<UserResponseDto> GetAllUser()
+        {
+            List<User> userList = (List<User>)userRepository.GetAll();
+            return mapper.Map<List<UserResponseDto>>(userList);
+        }
+
+        public UserResponseDto GetUserById(Guid id)
+        {
+            return mapper.Map<UserResponseDto>(userRepository.GetUserById(id));
         }
 
         public User Login(string email, string password)

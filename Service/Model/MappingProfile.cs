@@ -22,7 +22,7 @@ namespace Service.Model
             //edit user
             CreateMap<EditUserDto,User>();
             CreateMap<User, EditUserDto>();
-
+            
 
         }
     }
