@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BussinessObjects.Migrations
 {
     [DbContext(typeof(CiAuctionContext))]
-    [Migration("20240305095131_c")]
-    partial class c
+    [Migration("20240308100754_d")]
+    partial class d
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -102,7 +102,7 @@ namespace BussinessObjects.Migrations
                         .HasColumnType("datetime(6)")
                         .HasColumnName("birthdate");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime?>("CreatedAt")
                         .HasMaxLength(50)
                         .HasColumnType("datetime(6)")
                         .HasColumnName("createdAt");
@@ -126,26 +126,23 @@ namespace BussinessObjects.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)")
+                        .HasColumnType("longtext")
                         .HasColumnName("password");
 
                     b.Property<bool>("Status")
                         .HasColumnType("tinyint(1)")
                         .HasColumnName("status");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedAt")
                         .HasMaxLength(50)
                         .HasColumnType("datetime(6)")
                         .HasColumnName("updatedAt");
 
                     b.Property<string>("Username")
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)")
+                        .HasColumnType("longtext")
                         .HasColumnName("username");
 
                     b.Property<string>("WalletAddress")
-                        .IsRequired()
                         .HasMaxLength(64)
                         .HasColumnType("varchar(64)")
                         .HasColumnName("walletAddress");

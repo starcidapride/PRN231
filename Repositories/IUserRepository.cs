@@ -14,6 +14,8 @@ namespace Repositories
         public User GetUserById(Guid id);
         public IEnumerable<User> GetAll();
         public User? UpdateUser(User user);
-        public User RemoveUser(Guid id);
+        public User ActiveUser(Guid id, Boolean active);
+        public User? GetUserByUsername(string username);
+        public User? GetUserByEmail(string email);   
     }
 }

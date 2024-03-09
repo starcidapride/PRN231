@@ -1,8 +1,188 @@
 [
   {
     "ContainingType": "PRN231_Server.Controllers.UserController",
+    "Method": "ActivateUser",
+    "RelativePath": "activate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.OrchidController",
+    "Method": "GetAll",
+    "RelativePath": "api/orchids",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.OrchidController",
+    "Method": "AddOrchid",
+    "RelativePath": "api/orchids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orchidRequestDto",
+        "Type": "Service.Model.Request.OrchidRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.OrchidController",
+    "Method": "EditOrchid",
+    "RelativePath": "api/orchids",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editOrchidDto",
+        "Type": "Service.Model.Request.EditOrchidDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.OrchidController",
+    "Method": "RemoveOrchid",
+    "RelativePath": "api/orchids",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.OrchidController",
+    "Method": "GetById",
+    "RelativePath": "api/orchids/{id}/getId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.OrchidController",
+    "Method": "GetByName",
+    "RelativePath": "api/orchids/{name}/getName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.UserController",
+    "Method": "EditUser",
+    "RelativePath": "api/users",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editUserDto",
+        "Type": "Service.Model.Request.EditUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.UserController",
+    "Method": "GetAll",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.UserController",
+    "Method": "GetByEmail",
+    "RelativePath": "api/users/{email}/getEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.UserController",
+    "Method": "GetById",
+    "RelativePath": "api/users/{id}/getId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.UserController",
+    "Method": "GetByUsername",
+    "RelativePath": "api/users/{username}/getName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.UserController",
     "Method": "Login",
-    "RelativePath": "User/Login",
+    "RelativePath": "api/users/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,7 +198,7 @@
   {
     "ContainingType": "PRN231_Server.Controllers.UserController",
     "Method": "SignUp",
-    "RelativePath": "User/SignUp",
+    "RelativePath": "api/users/signup",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -27,6 +207,22 @@
         "Name": "registerDto",
         "Type": "Service.Model.Request.RegisterDto",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_Server.Controllers.UserController",
+    "Method": "DeactivateUser",
+    "RelativePath": "deactivate",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

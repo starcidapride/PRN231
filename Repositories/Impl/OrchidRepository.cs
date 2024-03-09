@@ -16,6 +16,8 @@ namespace Repositories.Impl
 
         public Orchid? GetOrchidById(Guid id) => OrchidDAO.Instance.GetOrchidById(id);
 
+        public Orchid? GetOrchidByName(string name)=>OrchidDAO.Instance.GetOrchidByName(name);
+
         public void RemoveOrchid(Guid id) => OrchidDAO.Instance.RemoveOrchid(id);
 
         public Orchid UpdateOrchid(Orchid orchid) => OrchidDAO.Instance.UpdateOrchid(orchid);

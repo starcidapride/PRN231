@@ -56,6 +56,17 @@ namespace DataAccessObjects
                 throw new Exception(ex.Message);
             }
         }
+        public Orchid? GetOrchidByName(string name)
+        {
+            try
+            {
+                return _context.Orchids.Include(o => o.User).SingleOrDefault(o => o.Name.Equals(name));
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
 
         public Orchid? AddOrchid(Orchid orchid)
         {

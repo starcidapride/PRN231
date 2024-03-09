@@ -11,6 +11,7 @@ namespace Repositories
     {
         public IEnumerable<Orchid> GetAll();
         public Orchid? GetOrchidById(Guid id);
+        public Orchid? GetOrchidByName(string name);
         public Orchid? AddOrchid(Orchid orchid);
         public void RemoveOrchid(Guid id);
         public Orchid UpdateOrchid(Orchid orchid);

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BussinessObjects.Migrations
 {
     /// <inheritdoc />
-    public partial class a : Migration
+    public partial class d : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,16 +21,19 @@ namespace BussinessObjects.Migrations
                     userId = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
                     email = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    username = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: true)
+                    username = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    password = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
+                    password = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     firstName = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     lastName = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    walletAddress = table.Column<string>(type: "varchar(64)", maxLength: 64, nullable: false)
+                    walletAddress = table.Column<string>(type: "varchar(64)", maxLength: 64, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    createdAt = table.Column<DateTime>(type: "datetime(6)", maxLength: 50, nullable: true),
+                    updatedAt = table.Column<DateTime>(type: "datetime(6)", maxLength: 50, nullable: true),
+                    status = table.Column<bool>(type: "tinyint(1)", nullable: false),
                     birthdate = table.Column<DateTime>(type: "datetime(6)", nullable: false)
                 },
                 constraints: table =>
@@ -72,8 +75,8 @@ namespace BussinessObjects.Migrations
                     depositRequestId = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
                     DateStart = table.Column<DateTime>(type: "datetime(6)", nullable: true),
                     DateEnd = table.Column<DateTime>(type: "datetime(6)", nullable: true),
-                    ownerId = table.Column<Guid>(type: "char(36)", nullable: true, collation: "ascii_general_ci"),
-                    orchidId = table.Column<Guid>(type: "char(36)", nullable: true, collation: "ascii_general_ci")
+                    ownerId = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
+                    orchidId = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci")
                 },
                 constraints: table =>
                 {
@@ -82,12 +85,14 @@ namespace BussinessObjects.Migrations
                         name: "FK_deposit_request_orchid_orchidId",
                         column: x => x.orchidId,
                         principalTable: "orchid",
-                        principalColumn: "orchidId");
+                        principalColumn: "orchidId",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_deposit_request_user_ownerId",
                         column: x => x.ownerId,
                         principalTable: "user",
-                        principalColumn: "userId");
+                        principalColumn: "userId",
+                        onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 

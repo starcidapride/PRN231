@@ -18,8 +18,8 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 // Add services to the container.
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
-//builder.Services.AddScoped<IOrchidRepository, OrchidRepository>();
-//builder.Services.AddScoped<IOrchidService, OrchidService>();
+builder.Services.AddScoped<IOrchidRepository, OrchidRepository>();
+builder.Services.AddScoped<IOrchidService, OrchidService>();
 //builder.Services.AddScoped<IDepositRequestRepository, DepositRequestRepository>();
 //builder.Services.AddScoped<IDepositRequestService, DepositRequestService>();
 
@@ -97,7 +97,7 @@ app.UseCors(builder =>
 app.UseHttpsRedirection();
 
 //use authentication
-
+app.UseAuthentication();    
 //
 
 app.UseAuthorization();

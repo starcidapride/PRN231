@@ -15,9 +15,10 @@ namespace Service
         public RegisterDto AddUser(RegisterDto registerDto);
         public UserResponseDto GetUserById(Guid id);
         public List<UserResponseDto> GetAllUser();
-
         public EditUserDto EditUser(EditUserDto editUserDto);
-        public UserResponseDto DeleteUser(Guid id);
-        
+        public UserResponseDto ActiveUser(Guid id, Boolean active);
+        public UserResponseDto? GetUserByUsername(string username);
+        public UserResponseDto? GetUserByEmail(string email);
+
     }
 }

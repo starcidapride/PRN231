@@ -14,14 +14,17 @@ namespace Repositories.Impl
 
         public IEnumerable<User> GetAll()=>UserDAO.Instance.GetAll();
 
+        public User? GetUserByEmail(string email)=>UserDAO.Instance.GetUserByEmail(email);  
+
         public User GetUserById(Guid id)=>UserDAO.Instance.GetUserById(id);
+
+        public User? GetUserByUsername(string username)=>UserDAO.Instance.GetUserByUsername(username);
 
         public User Login(string email, string password)=>UserDAO.Instance.Login(email, password);
 
-        public User RemoveUser(Guid id)=>UserDAO.Instance.RemoveUser(id);
+        public User ActiveUser(Guid id, Boolean active)=>UserDAO.Instance.ActiveUser(id,active);
 
         public User? UpdateUser(User user)=>UserDAO.Instance.UpdateUser(user);
-
-       
+    
     }
 }

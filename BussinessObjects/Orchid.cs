@@ -35,9 +35,9 @@ namespace BussinessObjects
         [Column("depositedStatus")]
         public DepositedStatus DepositedStatus { get; set; }
 
-        public User User { get; set; }
+        public User? User { get; set; }
 
         [JsonIgnore]
-        public virtual ICollection<DepositRequest> DepositRequests { get; set; }
+        public virtual ICollection<DepositRequest>? DepositRequests { get; set; }
     }
 }

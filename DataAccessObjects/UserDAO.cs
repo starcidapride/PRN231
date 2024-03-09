@@ -90,12 +90,40 @@ namespace DataAccessObjects
             }
         }
 
+        public User? GetUserByEmail(string email)
+        {
+            try
+            {
+                return _context.Users.SingleOrDefault(u => u.Email.Equals(email));
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public User? GetUserByUsername(string username)
+        {
+            try
+            {
+                return _context.Users.SingleOrDefault(u => u.Username.Equals(username));
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
         public User? UpdateUser(User user)
         {
             try
             {
-                _context.Entry<User>(user).State = EntityState.Modified;
-                _context.SaveChanges();
+                var updatedUser= GetUserByUsername(user.Username);
+                if (updatedUser!=null)
+                {
+                    _context.Entry<User>(user).State = EntityState.Modified;
+                    _context.SaveChanges();
+                }
                 return user;
             }
             catch (Exception ex)
@@ -104,12 +132,12 @@ namespace DataAccessObjects
             }
         }
 
-        public User RemoveUser(Guid id)
+        public User ActiveUser(Guid id, Boolean active)
         {
             try
             {
                 var existedUser = GetUserById(id);
-                existedUser.Status= false;
+                existedUser.Status = active;
                 _context.Entry<User>(existedUser).State = EntityState.Modified;
                 _context.SaveChanges();
                 return existedUser;
